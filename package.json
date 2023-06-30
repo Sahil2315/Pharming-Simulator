@@ -1,0 +1,21 @@
+{
+  "name": "web-pharming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install express pg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahil2315/Pharming-Simulator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahil2315/Pharming-Simulator/issues"
+  },
+  "homepage": "https://github.com/Sahil2315/Pharming-Simulator#readme"
+}

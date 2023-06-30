@@ -1,12 +1,13 @@
 const express = require('express')
 const app = express()
 const path = require('path')
+require('dotenv').config()
 
 app.use(express.static(path.join(__dirname + '/Static/')));
 app.use(express.json());
 
 const { Pool, Client } = require('pg')
-const connectionString = 'postgres://rrgcgror:EfsyxJk9i4KJBjJNbSwG30BWS4XYKmz3@satao.db.elephantsql.com/rrgcgror'
+const connectionString = process.env.Postgres_String
 
 const db = new Client({
   connectionString: connectionString,
